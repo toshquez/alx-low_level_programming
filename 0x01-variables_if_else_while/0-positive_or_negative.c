@@ -5,32 +5,39 @@
 #include <time.h>
 
 /**
+ * main - Prints if number is positive, negative or zero
  *
- *   main - print out stdout
- *
- *    Return: Always 0
- * 
-  */
-
+ * Return: Always (Success)
+ */
 int main(void)
 
-{
+{	
 
 	int n;
 
 
-				if  (n > 0)
 
-					printf("%d is positive\n", n);
+	srand(time(0));
 
-				else if (n < 0)
+	n = rand() - RAND_MAX / 2;
 
-					printf("%d is negative\n", n);
+	if(n > 0)
+	{	
 
-				else
+	printf("%d is positive\n", n);
+	}
 
-					printf("%d is zero\n", n);
+	else if(n < 0)
+	{
+	printf("%d is negative\n", n);
+	}
 
-				return (0);
+	else
+	{	
+
+	printf("%d is zero\n", n);
+
+	}
+	return (0);
 
 }
