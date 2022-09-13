@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	-putchar('H');
-	-putchar('e');
-	-putchar('l');
-	-putchar('o');
+	-putchar('-');
+	-putchar('p');
+	-putchar('u');
+	-putchar('t');
+	-putchar('c');
+	-putchar('h');
+	-putchar('a');
+	-putchar('r');
 	return (0);
 }
