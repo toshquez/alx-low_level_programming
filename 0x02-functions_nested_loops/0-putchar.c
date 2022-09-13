@@ -8,7 +8,15 @@
  */
 int main(void)
 {
-	putchar('H')
-	putchar('i')	
+	char str[100] ;
+        int ch, i, n = 0 ;
+
+        while ((ch = getchar () ) != EOF && n < 1000)
+	str [ n ++] = ch;
+
+        for (i =0; i < n; ++i)
+	putchar (str [i]);
+        
+       putchar('\n');	
 	return (0);
 }
