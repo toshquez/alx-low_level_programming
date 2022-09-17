@@ -1,29 +1,29 @@
 #include "main.h"
 
 /**
- * print_triangle - entry point
- * Description: Prints traingle
- * @size: size of the triangle
- * Return: void
+ * print_triangle - function that print a triangle
+ * @size: assigned to int
  */
 
 void print_triangle(int size)
 {
-	int row, hashes, spaces;
+	int i;
+	int j;
+	int k;
 
 	if (size <= 0)
 	{
-		_putchar('\n';)
+		_putchar('\n');
 	}
 	else
 	{
-        	for (row = 1; row <= size; row++)
+        	for (i = 1; i <= size; i++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
+			for (j = size - i; j >= 1; j--)
 			{
 				_putchar(' ');
 			}
-			for (hashes = 1; hashes <= row; hashes++)
+			for (k = 1; k <= 1; k++)
 			{
 				_putchar('#');
 			}
