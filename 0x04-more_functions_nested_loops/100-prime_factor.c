@@ -6,7 +6,7 @@
  * Return: returns 0
  */
 
-int main (void)
+int main(void)
 {
 	long i, num = 612852475143;
 
@@ -19,6 +19,5 @@ int main (void)
 	}
 	}
 	printf("%lu\n", i);
-	return (0);
-	
+	return (0);	
 }
