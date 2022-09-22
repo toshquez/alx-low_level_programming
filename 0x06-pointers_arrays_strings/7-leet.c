@@ -9,14 +9,16 @@ char *leet(char *s)
 {
 	int i, j;
 
-	char src[] = "aeotlAEOTL";
-	char dest[] = "4307143071";
-	for (i = 0; *(s + i); i++)
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (src[j] == *(s + i))
-				*(s + i) = dest[j];
+			if (s[i] == a[j])
+			{
+				s[i] = b[j];
+			}
 		}
 	}
 	return (s);
