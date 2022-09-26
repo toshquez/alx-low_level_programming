@@ -6,7 +6,7 @@
  * @size: also an int
  * Return: no return
  */
-void print_diagnums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i, sum1 = 0, sum2 = 0;
 
