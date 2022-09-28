@@ -9,7 +9,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int palint2(char *a, int 1)
+int palind2(char *a, int l)
 {
 	if (*a == 0)
 		return (l - 1);
