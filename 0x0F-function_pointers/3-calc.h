@@ -4,16 +4,16 @@
 /**
  * File: 3-calc.h
  * Auth: Omotosho akanbi
- * Desc: Header file containing all structures and
- *	prototypes used by the 3-main.c program.
+ * Desc: Header file containing all structure and
+ * 	prototypes used br the 3-main.c program.
  */
 
 /**
- * sruct op - A sruct op.
+ * struct op - A struct op.
  * @op: The operator.
  * @f: The associated function.
  */
-typedef sruct op
+typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
